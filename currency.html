@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>ငွေလဲနှုန်း</title>
+	
+
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="css/all.css">
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Material Design Bootstrap -->
+	<link rel="stylesheet" href="css/mdb.min.css">
+	<!-- Our custom styles (optional) -->
+	<link rel="stylesheet" href="css/teamcs.css">
+	
+
+	<link rel="icon" href="images/app_icon.png" type="image/gif" sizes="16x16">
+
+	<style>
+
+		
+	.my_card{
+		margin-bottom: 20px;
+	}
+	.no_link{
+		text-decoration: none;
+	}
+	</style>
+</head>
+
+<body class="fixed-sn white-skin">
+
+	<!-- Main Navigation -->
+	<header>
+		<!-- Sidebar navigation -->
+		<div id="slide-out" class="side-nav sn-bg-4 fixed">
+			<ul class="custom-scrollbar">
+				<!-- Logo -->
+				<li class="logo-sn waves-effect py-3">
+					<div class="text-center">
+						<a href="#" class="pl-0">
+							<img src="images/team-cs-logo.png">
+						</a>
+						<p style="color:black; font-size:12px; padding-top: 50px;">
+							ယနေ့ ငွေလဲနှုန်း
+						<p>
+					</div>
+				</li>
+				<!-- Side navigation links -->
+				<li>
+					<ul class="collapsible collapsible-accordion">
+						
+						<!-- Simple link -->
+						<li> 
+							<a href="#intro_section" class="collapsible-header waves-effect ui_navigation" id="developreportbtn"><i class="w-fa fas fa-chart-pie  ui_navigation"></i>ယနေ့ ငွေလဲနှုန်း</a>
+						</li>
+						<li> 
+							<a href="#intro_section" class="collapsible-header waves-effect ui_navigation" id="developreportbtn"><i class="w-fa fas fa-chart-pie  ui_navigation"></i>MMK <> CNY</a>
+						</li>
+						<li> 
+							<a href="#intro_section" class="collapsible-header waves-effect ui_navigation" id="developreportbtn"><i class="w-fa fas fa-chart-pie  ui_navigation"></i>MMK <> THB</a>
+						</li>
+						<li> 
+							<a href="#intro_section" class="collapsible-header waves-effect ui_navigation" id="developreportbtn"><i class="w-fa fas fa-chart-pie  ui_navigation"></i>MMK <> CNY</a>
+						</li>
+					</ul>
+				</li>
+				<!-- Side navigation links -->
+			</ul>
+			<div class="sidenav-bg mask-strong"></div>
+		</div>
+		<!-- Sidebar navigation -->
+		<!-- Navbar -->
+		<nav class="navbar fixed-top navbar-expand-lg scrolling-navbar double-nav" id="nav_id">
+			<!-- SideNav slide-out button -->
+			<div class="float-left">
+				 <a href="#" data-activates="slide-out" class="button-collapse">
+					 <!-- <i class="fas fa-bars"></i> -->
+					</a>
+			</div>
+			<!-- Breadcrumb -->
+			<div class="breadcrumb-dn mr-auto align-center">
+				<p></p>
+			</div>
+			<div class="title_text mr-auto align-center text-center">
+				<h4 id="header_id"> ယနေ့ ငွေလဲနှုန်း </h4>
+			</div>
+			<div class="d-flex change-mode">
+				<!-- Navbar links -->
+				<ul class="nav navbar-nav nav-flex-icons ml-auto">
+					<li class="nav-item dropdown">
+						<a  href="index.html" class="nav-link dropdown-toggle waves-effect" href="#" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-comments-dollar"></i>  <span class="clearfix d-none d-sm-inline-block"></span>
+						</a>
+
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown"> <a   href="index.html"  class="dropdown-item ui_navigation" href="#login_section" id="logout_btn">မူလစာမျက်နှာ</a>
+						</div>
+					</li>
+				</ul>
+				<!-- Navbar links -->
+			</div>
+		</nav>
+		
+	</header>
+	<!-- Main Navigation -->
+
+	<!-- Main layout -->
+	<main>
+		<div class="container-fluid">
+			<!-- Section: Intro -->
+			<section id="intro_section">
+
+
+				<div class="card">
+					<div class="card-body">
+						<!-- Table -->
+						<table class="table">
+							<thead>
+								<tr>
+									<th class="th-lg">နိုင်ငံ</th>
+									<th class="th-lg">ငွေလွဲနှုန်း</th>
+								</tr>
+							</thead>
+							<tbody id="tbody_department">
+								<tr>
+									<th scope="row">အမေရိကန် ဒေါ်လာ</th>
+									<td>
+										<span id="usd_rate">
+											..
+										</span>  Kyats
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">တရုတ် ယွမ်</th>
+									<td>
+										<span id="cny_rate">
+											..
+										</span>  Kyats 
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">ထိုင်း ဘတ်</th>
+									<td>
+										<span id="thb_rate">
+											..
+										</span>  Kyats 
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- Table -->
+						<!-- Grid row -->
+						<div class="row text-left">
+							<!-- Grid column -->
+							<!-- <div class="col-lg-4 col-md-6 mb-4">
+								<button href="#department_form_section" class="btn btn-primary ui_navigation">တွက်ချက်ရန်</button>
+							</div> -->
+							<!-- Grid column -->
+						</div>
+						<!-- Grid row -->
+					</div>
+				</div>
+				<br>
+				<div class="card">
+					<div class="card-body">	
+						<h5 class="my-4 dark-grey-text font-weight-bold">ငွေလဲနှုန်းတွက်ရန်</h5>
+
+						<!-- Material input -->
+						<div class="md-form">
+							<select class="mdb-select md-form" searchable="Search here.." id="country_list_select">
+								<option value="" disabled selected>နိုင်ငံရွေးချယ်ရန်</option>
+								<option value="1">USA</option>
+								<option value="2">Germany</option>
+								<option value="3">France</option>
+								<option value="3">Poland</option>
+								<option value="3">Japan</option>
+						      </select>
+						</div>
+
+						<!-- Material input -->
+						<div class="md-form">
+							<i class="fas fa-comments-dollar prefix"></i>
+							<input type="number" id="selected_currency_input" class="form-control">
+							<label for="usd_input" id="selected_country_label"> နိုင်ငံခြားငွေ </label>
+						</div>
+						<!-- Material input -->
+						<div class="md-form">
+							<i class="fas fa-comments-dollar prefix"></i>
+							<input type="number" id="mmk_input_selected_currency" class="form-control">
+							<label for="mmk_input_selected_currency">မြန်မာကျပ်</label>
+						</div>
+					</div>
+				</div>
+					
+				
+			</section>
+			<!-- Section: Intro -->
+		</div>
+	</main>
+	<!-- Main layout -->
+
+	<!-- Footer -->
+	<footer class="page-footer pt-0 mt-5 rgba-stylish-light">
+		<!-- Copyright -->
+		<div class="footer-copyright py-3 text-center">
+			<div class="container-fluid">Developed By : <a href="#" target="_blank"> TEAM CS </a>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer -->
+
+
+	
+	
+	<!-- SCRIPTS -->
+	<!-- JQuery -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+
+	
+	<script src="js/modernizr.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/underscore.min.js"></script>
+	<script src="js/backbone.js"></script>
+
+
+	<!-- Initializations -->
+	<script>
+		// SideNav Initialization
+		    $(".button-collapse").sideNav();
+		
+		    var container = document.querySelector('.custom-scrollbar');
+		    var ps = new PerfectScrollbar(container, {
+		      wheelSpeed: 2,
+		      wheelPropagation: true,
+		      minScrollbarLength: 20
+		    });
+		
+		    // Data Picker Initialization
+		    //$('.datepicker').pickadate();
+		
+		    // Material Select Initialization
+		    $(document).ready(function () {
+		      
+		      $('.mdb-select').material_select();
+		
+		      $('section').hide();
+		      $("#intro_section").show();
+		      // login section show
+		      // all hide
+		
+		
+		      $('.ui_navigation').click(function(){
+		          var link = $(this).attr('href');
+		          link = link.substring(1);
+		          //alert(link);
+		          $('section').hide();
+		          $("#"+link).show();
+		      });
+		    });
+		
+		    // Tooltips Initialization
+		    $(function () {
+		      $('[data-toggle="tooltip"]').tooltip()
+		    })
+	</script>
+	<!-- Our JavaScript -->
+	<script type="text/javascript" src="js/software_store.js"></script>
+
+	<script>
+
+		$(document).ready(function(){
+			// stored rate
+
+			console.log("currency is ready");
+			// rates on 2019-12-19 From Myanmar Central Bank
+			window.rates =  {
+				"USD": 1505.2,
+				"IDR": 10.771,
+				"KHR": 36.861,
+				"SGD": 1110.2,
+				"LKR": 8.3091,
+				"NZD": 987.10,
+				"CZK": 65.804,
+				"JPY": 1375.6,
+				"VND": 6.4952,
+				"PHP": 29.706,
+				"KRW": 128.96,
+				"HKD": 193.28,
+				"BRL": 369.66,
+				"MYR": 363.71,
+				"RSD": 14.261,
+				"CAD": 1143.2,
+				"GBP": 1971.9,
+				"SEK": 160.01,
+				"NOK": 166.72,
+				"ILS": 430.73,
+				"AUD": 1030.5,
+				"DKK": 224.23,
+				"RUB": 24.038,
+				"KWD": 4959.8,
+				"INR": 21.181,
+				"BND": 1110.2,
+				"EUR": 1675.2,
+				"NPR": 13.237,
+				"ZAR": 104.49,
+				"CNY": 215.10,
+				"CHF": 1533.6,
+				"THB": 49.783,
+				"PKR": 9.7160,
+				"KES": 14.859,
+				"EGP": 93.782,
+				"BDT": 17.730,
+				"SAR": 401.31,
+				"LAK": 16.973
+			};
+			window.country_list = {
+				"USD": "အမေရိကန် ဒေါ်လာ",
+				"THB": "ထိုင်း ဘတ်",
+				"CNY": "တရုတ် ယွမ်",
+				"MYR": "မလေးရှား ရင်းဂစ်",
+				"SGD": "စင်္ကာပူ ဒေါ်လာ",
+				"JPY": "ဂျပန် ယန်း",
+				"EUR": "ယူရို",
+				"GBP": "စတာလင် ပေါင်",
+				"CHF": "Swiss Franc",
+				"AUD": "Australian Dollar",
+				"BDT": "Bangladesh Taka",
+				"BND": "Brunei Dollar",
+				"KHR": "Cambodian Riel",
+				"CAD": "Canadian Dollar",
+				"HKD": "Hong Kong Dollar",
+				"INR": "Indian Rupee",
+				"IDR": "Indonesian Rupiah",
+				"KRW": "Korean Won",
+				"LAK": "Lao Kip",
+				"NZD": "New Zealand Dollar",
+				"PKR": "Pakistani Rupee",
+				"PHP": "Philippines Peso",
+				"LKR": "Sri Lankan Rupee",
+				"VND": "Vietnamese Dong",
+				"BRL": "Brazilian Real",
+				"CZK": "Czech Koruna",
+				"DKK": "Danish Krone",
+				"EGP": "Egyptian Pound",
+				"ILS": "Israeli Shekel",
+				"KES": "Kenya Shilling",
+				"KWD": "Kuwaiti Dinar",
+				"NPR": "Nepalese Rupee",
+				"NOK": "Norwegian Kroner",
+				"RUB": "Russian Rouble",
+				"SAR": "Saudi Arabian Riyal",
+				"RSD": "Serbian Dinar",
+				"ZAR": "South Africa Rand",
+				"SEK": "Swedish Krona"
+			};
+
+			// we store latest rate in localStorage
+			// check it out and update
+			if(localStorage.getItem('rates')) {
+				console.log("localStorage rates is updated");
+				window.rates = JSON.parse(localStorage.getItem('rates'));
+			} 
+			else{
+				console.log("just use initial rates");
+			}
+
+			// initialization
+			$("#usd_rate").html(window.rates['USD']);
+			$("#cny_rate").html(window.rates['CNY']);
+			$("#thb_rate").html(window.rates['THB']);
+
+			$("#country_list_select").empty();
+			$("#country_list_select").append('<option value="" disabled selected>နိုင်ငံရွေးချယ်ရန်</option>');
+			for (let key in window.country_list){
+				if(window.country_list.hasOwnProperty(key)){
+					//console.log(`${key} : ${window.country_list[key]}`);
+					var html = '<option value="'+key+'" >'+window.country_list[key]+'</option>';
+					$("#country_list_select").append(html);
+				}
+			}
+			$("#country_list_select").on('change',function(){
+				console.log("country value is "+$(this).val());
+				var country_code = $(this).val();
+				var country_name = window.country_list[country_code];
+				$("#selected_country_label").html(country_name);
+				
+				$("#selected_currency_input").val("");
+				$("#mmk_input_selected_currency").val("");
+			});
+			
+			
+			// initialize coverter fields
+
+			$("#selected_currency_input").keyup(function(){
+				var fec_input = $("#selected_currency_input").val();
+				if(fec_input == "" ) return;
+
+				var country_code = $("#country_list_select").val();
+				if(country_code == "") {
+					alert("select country first");
+					return;
+				}
+
+				var country_name = window.country_list[country_code];
+				var country_rate = window.rates[country_code];
+				
+				console.log(country_name +" rate  is "+country_rate);
+				
+				var mmk = fec_input * country_rate;
+				mmk = mmk.toFixed(2);
+				$("#mmk_input_selected_currency").val(mmk);
+				$("#mmk_input_selected_currency").focus();
+				$("#selected_currency_input").focus();
+			});
+			
+
+			$("#mmk_input_selected_currency").keyup(function(){
+				var mmk_input = $("#mmk_input_selected_currency").val();
+				if(mmk_input == "" ) return;
+
+				var country_code = $("#country_list_select").val();
+				if(country_code == "") {
+					alert("select country first");
+					return;
+				}
+
+				var country_name = window.country_list[country_code];
+				var country_rate = window.rates[country_code];
+				
+				console.log(country_name +" rate  is "+country_rate);
+				
+				var fec = mmk_input / country_rate;
+				fec = fec.toFixed(2);
+				$("#selected_currency_input").val(fec);
+				$("#selected_currency_input").focus();
+				$("#mmk_input_selected_currency").focus();
+			});
+
+
+			
+			var currency_endpoint = "http://teamcs.000webhostapp.com/currency/index.php";
+
+				
+				console.log("getting latest exchange rate ");
+
+			$.ajax({
+				url: currency_endpoint,
+				type: "get",
+				success: function(response) {
+					console.log("success "+JSON.stringify(response));
+					
+					// convert rate string into int
+					for (let country in response.rates){
+						if(response.rates.hasOwnProperty(country)){
+							console.log(`${country} : ${response.rates[country]}`);
+							response.rates[country] = response.rates[country].replace(',','');
+						}
+					}
+					// store in localStorage and window
+					window.rates = response.rates;
+					localStorage.setItem("rates",JSON.stringify(window.rates));
+
+					//console.log("USD rate " + response['rates']['USD']);
+						
+						window.usd_rate = response['rates']['USD'].replace(',','');
+						console.log("usd rate is "+window.usd_rate);
+						cny_rate = response['rates']['CNY'].replace(',','');
+						thb_rate = response['rates']['THB'].replace(',','');
+
+						// console.log("USD rate replace : " + ret);
+						// var mmk = 1000 * ret ;
+						// console.log("mmk : "+mmk);
+
+						$("#usd_rate").html(response['rates']['USD']);
+						$("#cny_rate").html(response['rates']['CNY']);
+						$("#thb_rate").html(response['rates']['THB']);
+
+						var usd_rate = parseFloat(response['rates']['USD']);
+						console.log("USD rate float : " + usd_rate);
+					},
+					error: function(response) {
+						console.log("error "+JSON.stringify(response));
+					}
+			});
+			
+		});
+	
+	</script>
+</body>
+
+</html>
